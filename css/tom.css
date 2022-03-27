@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+.cat,body,html{
+        width: 100%;
+        height: 100%;
+        /* 溢出隐藏 */
+        overflow: hidden;
+}
+img{
+    position: absolute;
+}
+#cymbal,#drink,#eat{
+    left: 5%;
+}
+#fart,#pie,#scratch{
+    right: 5%;
+}
+#cymbal,#fart{
+    bottom: 30%;
+}
+#drink,#pie {
+    bottom: 20%;
+}
+#eat,#scratch{
+    bottom: 10%;
+}
+#angry{
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    left: 40%;
+    top: 32%;
+    
+}
+#knockout{
+    width: 20%;
+    height: 8%;
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    
+}
+#footLeft{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 52%;
+    bottom: 4%;
+ 
+    
+}
+#footRight{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 37%;
+    bottom: 4%;
+ 
+    
+}
+#stomach{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 40%;
+    bottom: 17%;
+
+    
+}
